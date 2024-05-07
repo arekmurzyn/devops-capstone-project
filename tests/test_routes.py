@@ -29,7 +29,6 @@ HTTPS_ENVIRON = {'wsgi.url_scheme': 'https'}
 class TestAccountService(TestCase):
     """Account Service Tests"""
 
-
     @classmethod
     def setUpClass(cls):
         """Run once before all tests"""
